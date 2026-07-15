@@ -5,7 +5,7 @@ import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Preferences } from '@capacitor/preferences';
 import { isPlatform } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
-
+// https://ionicframework.com/docs/react/your-first-app/deploying-mobile
 export function usePhotoGallery() {
   const [photos, setPhotos] = useState<UserPhoto[]>([]);
 
